@@ -35,7 +35,7 @@ services:
   mongodb-node:
     container_name: mongodb-node
     restart: always
-    image: mongo
+    image: mongo:4.4
     logging:
       driver: none
     volumes:
