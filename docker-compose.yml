@@ -35,10 +35,10 @@ services:
   mongodb-node:
     container_name: mongodb-node
     restart: always
-    image: mongo:4.4
+    image: mongo
     logging:
       driver: none
     volumes:
       - ~/mongo/data:/data/db
     ports:
-      - '27017:27017'
+      - "27017:27017"
